@@ -4,3 +4,19 @@
   border-radius: 4px;
   background: #fff;
 }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  border-bottom: 2px solid silver;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.countries {
+  border: 8px solid silver;
+  border-right: 4px solid silver;
+}
