@@ -7,14 +7,14 @@ a {
 }
 
 .message__content {
-  font-size: 0, 9rem;
+  font-size: 0.9rem;
 }
 
-.message message--unread {
+.message--unread {
   border-left: 5px solid blue;
 }
 
-.message message--old {
+.message--old {
   opacity: 0.5;
 }
 
