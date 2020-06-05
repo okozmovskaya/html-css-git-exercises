@@ -1,1 +1,52 @@
 /* Add your own CSS code below */
+
+#heart {
+  color: #c85308;
+}
+
+.main-nav__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-article {
+  max-width: 50em;
+  text-align: justify;
+  line-height: 25px;
+}
+
+.site-content {
+  display: flex;
+  justify-content: center;
+}
+
+/* Media query */
+
+@media (min-width: 992px) {
+  .hero__title {
+    font-size: 70px;
+  }
+}
+
+@media (min-width: 767px) {
+  .site-header {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+  }
+
+  .views {
+    display: flex;
+    position: relative;
+  }
+
+  .view-list__item {
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .views__all {
+    padding-left: 780px;
+  }
+}
